@@ -1,0 +1,8 @@
+Arreglos en Javascript
+
+Los arreglos (arrays en inglés) son colecciones de elementos que poseen características similares, como
+por ejemplo letras, nombres, números, etc. Es como tener una caja ajustable en la cuales pones cosas de las 
+mismas características, como pelotas, sacapuntas, etc. Es como decir "!Mira el cesto de las frutas!. 
+De esta forma podemos introducir elementos al arreglo como manzanas al cesto; incluso podemos sacar un 
+elemento y sustituirlo por otro, o cambiar todas sus posiciones y de esta manera otras acciones.
+
