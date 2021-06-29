@@ -1,0 +1,81 @@
+
+Vamos a explicar los siguientes conceptos
+1) Objetos
+2) Propiedades
+3) Métodos
+4) Bucle for…in
+5) Notación de puntos vs notación de corchetes
+
+1) Qué son los Objetos en Javascript y 2) las propiedades de los Objetos.
+
+Casi siempre te diran: "un objeto es una colecciones de propiedades". Eso no dice mucho ¿cierto? o el clásico: "los objetos 
+en un lenguaje de programación son como los objetos reales". ¿Y eso que significa? bueno, eso significa lo siguiente:
+Vivimos en un mundo lleno de cosas, animadas y no animadas, y cada una de ellas tienen características propias. como 
+cuando vez una manzana o un auto. 
+
+¿Cuales son las características de una buena manazana? puede primero su color, es roja,o verde, etc. ¿cuál otras 
+características? que es una fruta, que tiene semillas, que tiene un peso, que tiene un precio si no tienes un arbol 
+de manzanas o si no te la regalan. De manera similar, en programación con Javascript los objetos son también cosas 
+que poseen características que las distinguen de otros objetos. ¿A que un manazana es muy diferente de una pera verdad?
+a pesar que son frutas no son iguales, sus características son distintas aunque tengan similitudes como que también 
+tienen semillas. De igual forma en Javascript los Objetos tienen características que le definen, a estas características 
+les llaman "PROPIEDADES" y son las que diferencian a un objeto de otro. Como estamos programando, las propiedades de un
+objetos pueden ser arreglos, números, operadores boolenos o métodos. 
+
+Un objeto por ejemplo puede tener la siguiente forma:
+const gaturro = {}; //esta es la declaración de un objeto sin propiedades. !Luego se las podemos colocar!
+const gaturro = {
+    nombre: 'gaturro',
+    edad: 2,
+    meow: function(){
+      return 'Meow!';
+    }
+  };
+ Aquí ya le colocamos propiedades a nuestro objeto llamado gaturro. ¿observaste que hay dentro algo que se llama "meow".
+ A eso se le llama método o función ( de hecho puedes ver clarito una palabra function luego de 'meow:'. Ahora explicamos
+ para que sirve.
+
+3) Métodos
+
+¿Recuerdas que dijimos que nuestros objetos en programación tienen similitud con los objetos en la vida real? ¡Así es!
+supongamos que vemos una bicicleta. La bicicleta tiene pedales que junto con una cadena y unos circulos dentados le 
+permiten a la persona desplazarse. Lo que quiero decir es que la bicicleta tiene una mecanismo que sirve para algo muy
+importante: para desplazarnos. Sino seria muy triste tener una bicicleta.
+
+De igual manera nuestros objetos sirven para algo, y como la mayoría de la bicicletas que tienen mecanismos que sirven para
+algo, nuestros objetos en programación también. A estos mecanismos que sirven para algo en nuestros objetos les llamamos
+funciones o métodos. como veras nuestro objeto gaturro puede maullar, hace Meow!, al menos no es un gato mudo el pobre. 
+aunque no le hayamos puestos funciones de movimiento o cacería.
+
+Como verás, los métodos ejecutan acciones (¡gaturro maulla!), y es por ellos que en Javascript existen múltiple variedad de
+métodos que nos ayudan a realizar acciones. Pero eso lo profundizaremos más adelante.
+
+4)Bucles For... in
+
+Como ya sabras los bucles son acciones repetitivas que puedes programar en Javascript como ya se ha visto con los 
+bucles 'for' y los 'do while'. aquí te traigo otro que podemos usar: el bucle 'for in' y que es utili cuando queremos 
+recorrer las propiedades de un objeto.
+
+Este bucle tiene la forma siguiente:
+
+		for (var variable in Nombre_Objeto){
+			//acá se colocan la sentencias que vamos a ejecutar por cada propiedad de nuestro objeto
+		}
+	un ejemplo:
+		var objeto = ['a', 'b', 'c'];
+
+		for (var i in objeto){
+			document.write(objeto[i] + '<br>');
+
+	En este ejemplo estamos mostrando en la pantalla de nuestro monitor cada uno de los
+	elementos del objeto, uno debajo del otro(por ello el salto br),
+	que contiene el objeto llamado simplemento objeto. 
+
+ 5) Notación de punto versus notación de corchetes
+	Son dos formas similares de acceder a las propiedades de un objeto. ejemplo
+	documento.createElement('preparatoria');
+	documento['createElement']('preparatoria');
+	en ambos casos estamos accediendo a la propiedad createElement que se encuentras en
+	nuestro objeto llamado documento.
+	Tienen sus particularidades pero eso vamos a explicarlo como más detalle en un 
+	apartado posterior. ¡hay mucho que aprender!
