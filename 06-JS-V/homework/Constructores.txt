@@ -1,0 +1,43 @@
+
+
+1) Constructores
+
+En una oportunidad anterior hablamos sobre las funciones y dijimos que nos 
+ayudaban a realizar acciones determinadas. Como en programación la mayoría de
+las funciones tienen características bastante definidas por su uso repetido, existen
+funciones que nos permiten 'clonar' las características de otras funciones. A estas 
+funciones se les llaman CONSTRUCTORES. Se escriben de esta manera por ejemplo
+
+// esta es la función constructora, que sirve de patron para hacer objetos
+var Bicicleta = function(marca, aro){
+this.marca = marca;
+this.tipoAro = tipoAro;
+};
+//Acá termina la función constructora
+
+// Acá 'clonamos' la función, tomando las propiedades de Bicicleta para hacer un Objeto
+
+var bicicleta1 = new Bicicleta("Shimano, 24);
+
+// La palabra clave new es quien me ayuda a crear el objeto bicicleta1
+
+y con esto podemos comenzar a practicar. ¡Vamos (a) por ello!
+
+2) Prototipos
+
+Como podras darte cuenta, existe algo sospechoso en Javascript: al parecer todo, 
+tanto las funciones, los constructores y los objetos pareciese que se tratan de formas
+similares, es porque en javascript todo es un objeto. Y todos los objetos tienen algo 
+denominado PROTOTIPO(prototype). Ahora te explico para qué sirven
+
+- sirven para agregar a nuestros objetos, nuevas propiedades. Te habras fijado que nuestro
+objeto bicicleta 1 tiene la marca de la bicicleta y el tamaño del aro. podemos agregar otra
+propiedad como el precio. Sería así
+		
+		Bicicleta.prototype.color= 'negro';
+
+  Ahora todos nuestros objetos tendran adicional la propiedad color. Por supuesto, puede 
+hacer más cosas como eliminar propiedades, cambiar las características de una propiedad
+entre muchas otras cosas que explicaremos más adelante. Por lo pronto quédate con estas 
+ideas en la cabeza.
+ 
