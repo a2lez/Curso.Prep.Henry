@@ -1,0 +1,23 @@
+
+Callback
+
+Ya hemos visto las funciones y te habrás enterado que las funciones tienen parámetros.
+Las Callbacks son funciones y mira que interesante, una función puede ser un parámetro para 
+otra función, es decir, una función puede requerir los servicios de otra función por ello 
+necesita llamar a esa función para poder ejecutar las actividades que le han sido programadas.
+
+La forma de una función callback es la siguiente
+
+funcion callback (){
+	console.log("Peligro: Osos Teddy demasiado felpudos a 100 metros");
+
+}
+function alerta (fn){
+		fn(); 
+}
+mensaje(callback);
+
+//Como podemos observar la función mensaje esta llamando a otra
+//para realizar alguna acción. En este caso llamar a la funcion callback para desplegar 
+//mensaje
+
