@@ -1,0 +1,40 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo 
+estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu 
+comprensión.
+
+Variables
+
+Las variables se asemejan a baldes o cubetas con un nombre en el cual puedes colocar lo quieras sin que el nombre 
+cambie. Lo que contiene una variable se le llama el valor de la variable, y como su mismo nombre lo indica, lo que 
+puede contener puede cambiar. En Javascript existen diferentes tipo de variables, pueden ser números, letras, entre 
+muchas otras.
+
+Strings (cadenas)
+
+Las cadenas o strings son un tipo de variable que puede almacenar datos en forma de texto, esto quiere decir que las 
+cadenas pueden contener (¿te acuerdas de las cubetas?) letras, palabras e incluso números que se traten como letras.
+ 
+Funciones (argumentos, return)
+Piensa un momento como ejecutas la rutina de atarte los zapatos, piensa en los movimientos que ejecutas para lograr
+el nudo y que cada extremo del cordón quede perfectamente atado. Las funciones son similares, son procedimientos que
+se ejecutan en una secuencia determinada que buscan un propósito. Es decir, las funciones son procedimientos que nos 
+ayudan a realizar una acción, y por ello, para poder hacer algún procedimiento necesita algunas herramientas, así 
+como para anudarnos los zapatos necesitamos que el zapato tenga un cordón, de la misma manera una función necesita
+algo para poder trabajar, estos son los argumentos. una vez que la acción está ejecutada se puede notar un resultado,
+a esto en la funciones se le denomina el retorno o return en inglés. 
+
+Declaraciones if
+Volvamos a pensar en cómo nos anudamos los zapatos, dependiendo del largo del cordón a veces nos tocará realizar un 
+doble nudo, o si uno de los extremos es mas largo que el otro, que debemos hacer. Tomamos decisiones. Unas de las mas 
+básicas es qué pasa si hacemos esto o aquello. En programación esto se traduce como las declaraciones If 
+(si en español). Si sucede que los extremos de los cordones son muy largo ¿que hago? ¿los dejo así?¿Hago un nudo
+doble? ¿triple? ¿corto los extremos?. A las declaraciones If también se les llama condicionales (si sucede esto, haré 
+aquello, si hay aquello, hago esto.
+
+Valores booleanos (true, false)
+
+Un señor muy inteligente llamado George Boole inventó el álgebra o las matemáticas fundamentales de la lógica
+que usa toda computadora. Me explico mejor, las computadoras solo entienden dos cosas muy bien: si o no, verdadero 
+o falso. Y en ello justamente conciste los valores boolenanos, representan cuando una declaración es
+cierta o falsa. por ejemplo ¿existe un billete de tres pesos? falso. ¿La Argentina es un pais? cierto. Pronto veremos 
+como puede ayudarnos estos valores en nuestros programas.
